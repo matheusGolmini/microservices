@@ -1,0 +1,119 @@
+<mxfile host="app.diagrams.net" modified="2023-04-12T19:19:20.841Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Bno89jSGUIWm3TvT864Z" version="21.1.7" type="device">
+  <diagram name="Página-1" id="S5m18DPMzZwYdZhqBGb2">
+    <mxGraphModel dx="4792" dy="3654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-31" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1970" y="-10" width="559" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-31">
+          <mxGeometry width="559" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-23" value="log-service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-31">
+          <mxGeometry x="164.5" y="320" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-26" value="Escuta o tópico -&amp;nbsp;ECOMMERCE*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-31">
+          <mxGeometry x="169.5" y="310" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-28" value="Kafka" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-31">
+          <mxGeometry x="164.5" y="30" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="hNQr_ElUU9Nu3LBOkZtW-31" source="hNQr_ElUU9Nu3LBOkZtW-23" target="hNQr_ElUU9Nu3LBOkZtW-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-30" value="Escuta todos os tópicos que pussuem o prefixo Ecommerce" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-31">
+          <mxGeometry x="79" y="170" width="200" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-35" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-50" y="-30" width="1390" height="1530" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-35">
+          <mxGeometry width="1390" height="1530" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-2" value="service - HTTP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-35">
+          <mxGeometry x="520" y="110" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-4" value="service-user" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-35">
+          <mxGeometry x="90" y="760" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-5" value="Kafka" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-35">
+          <mxGeometry x="520" y="370" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="hNQr_ElUU9Nu3LBOkZtW-35" source="hNQr_ElUU9Nu3LBOkZtW-2" target="hNQr_ElUU9Nu3LBOkZtW-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="290" />
+              <mxPoint x="640" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="hNQr_ElUU9Nu3LBOkZtW-35" source="hNQr_ElUU9Nu3LBOkZtW-4" target="hNQr_ElUU9Nu3LBOkZtW-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="650" />
+              <mxPoint x="640" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-10" value="Envia mensagem no tópico -&amp;nbsp;ECOMMERCE_NEW_USER" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-35">
+          <mxGeometry x="610" y="270" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="hNQr_ElUU9Nu3LBOkZtW-35" source="hNQr_ElUU9Nu3LBOkZtW-11" target="hNQr_ElUU9Nu3LBOkZtW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-11" value="service-prepare-email-user-created" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-35">
+          <mxGeometry x="520" y="760" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-13" value="Escuta o tópico -&amp;nbsp;ECOMMERCE_NEW_USER" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-35">
+          <mxGeometry x="95" y="760" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-14" value="Kafka" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-35">
+          <mxGeometry x="520" y="1000" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="hNQr_ElUU9Nu3LBOkZtW-35" source="hNQr_ElUU9Nu3LBOkZtW-11" target="hNQr_ElUU9Nu3LBOkZtW-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-16" value="Envia mensagem no tópico -&amp;nbsp;ECOMMERCE_SEND_EMAIL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-35">
+          <mxGeometry x="640" y="890" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.529;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="hNQr_ElUU9Nu3LBOkZtW-35" source="hNQr_ElUU9Nu3LBOkZtW-17" target="hNQr_ElUU9Nu3LBOkZtW-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-17" value="service-email" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-35">
+          <mxGeometry x="530" y="1240" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-19" value="Escuta o tópico - ECOMMERCE_SEND_EMAIL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-35">
+          <mxGeometry x="650" y="1140" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-20" value="Serviço de envio de email" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-35">
+          <mxGeometry x="900" y="1210" width="290" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="hNQr_ElUU9Nu3LBOkZtW-35" source="hNQr_ElUU9Nu3LBOkZtW-17" target="hNQr_ElUU9Nu3LBOkZtW-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-25" value="Escuta o tópico -&amp;nbsp;ECOMMERCE_NEW_USER" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-35">
+          <mxGeometry x="520" y="760" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-34" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;Criação de usuário&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-35">
+          <mxGeometry x="10" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-45" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-291" y="1900" width="1410" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-45">
+          <mxGeometry width="1410" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-40" value="&lt;h1&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;Mensagem&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Toda mensagem enviada deve estar evelopada dentro de um padrão que fique fácil rastrear a origem da informação.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-45">
+          <mxGeometry x="20" width="360" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-41" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;CorrelationId&lt;br&gt;payload&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-45">
+          <mxGeometry x="160" y="390" width="670" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="hNQr_ElUU9Nu3LBOkZtW-44" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Toda mensagem vai conter o correlationId que vai ser um identificador único junto com o nome da aplicação que emitu o evento, se surgir mais eventos deve ser concatenado o valor original com um novo id e nome do serviço&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hNQr_ElUU9Nu3LBOkZtW-45">
+          <mxGeometry x="411" y="130" width="880" height="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
